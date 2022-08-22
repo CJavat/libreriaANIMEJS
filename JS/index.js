@@ -1,3 +1,8 @@
+/* DOCUMENTACIÓN
+    https://animejs.com/documentation/#JSobjProp
+    https://github.com/juliangarnier/anime/
+*/
+
 "use strict";
 
 /* IMPORTAR LIBRERIA ANIME-JS */
@@ -12,7 +17,8 @@ const elemento3 = document.getElementById('elemento3');
 
 anime({
     targets: [elemento1, elemento2, elemento3],
-    translateX: 250
+    translateX: 250,
+    duration: 10000
 });
 
 /* EJEMPLO #2 - JAVASCRIPT OBJECT */
@@ -45,17 +51,35 @@ anime ({
     easing: 'easeInOutQuad'
 });
 
-/* EJEMPLO #4 -  */
+/* EJEMPLO #4 - CSS TRANSFORMS */
 const cuadrado3 = document.getElementById('cuadrado3');
 
 anime({
-    targets: cuadrado3
+    targets: cuadrado3,
+    translateX: 250,
+    scale: 2,
+    duration: 10000,
+    rotate: '1turn'
 });
 
+/* EJEMPLO #5 - OBJECT PROPERTIES */
+const contenedor = document.getElementById('contenedor');
 
+const miObjeto = {
+    prop1: 0,
+    prop2: '0%'
+}
 
-
-
+anime({
+    targets: miObjeto,
+    prop1: 50,
+    prop2: '100%',
+    easing: 'linear',
+    round: 1,
+    update: function() {
+        contenedor.innerText = JSON.stringify(miObjeto);
+    }
+});
 
 
 

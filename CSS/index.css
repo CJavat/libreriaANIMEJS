@@ -57,3 +57,7 @@ body {
     width: 20px;
 
 }
+
+.contenedor {
+    border: 1px solid #000;
+}
