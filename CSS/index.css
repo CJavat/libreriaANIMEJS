@@ -7,8 +7,6 @@
 body {
     display: flex;
     flex-flow: column nowrap;
-    width: 100vw;
-    height: 100vh;
     justify-content: center;
     align-items: center;
 }
@@ -60,4 +58,190 @@ body {
 
 .contenedor {
     border: 1px solid #000;
+}
+
+.dom-attributes {
+    width: 15rem;
+    height: 3rem;
+    padding: 1rem 0;
+    text-align: center;
+    background-color: #Fbb;
+    border: 1px solid #1bb;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.duration {
+    width: 2rem;
+    height: 2rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.delay {
+    width: 2rem;
+    height: 2rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.end-delay {
+    width: 2rem;
+    height: 2rem;
+    margin: .5rem;
+    background: #000;
+}
+
+.easing {
+    width: 2rem;
+    height: 2rem;
+    margin: .5rem;
+    background: #000;
+}
+
+.specific-property-parameters {
+    width: 2rem;
+    height: 2rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.function-based-parameters {
+    border: 1px solid black;
+    width: 40rem;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.element1 {
+    width: 2rem;
+    height: 2rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.element2 {
+    width: 2rem;
+    height: 2rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.element3 {
+    width: 2rem;
+    height: 2rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.direction {
+    border: 1px solid black;
+    width: 40rem;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.cuadro1 {
+    width: 2rem;
+    height: 2rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.cuadro2 {
+    width: 2rem;
+    height: 2rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.cuadro3 {
+    width: 2rem;
+    height: 2rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.loop {
+    border: 1px solid black;
+    width: 40rem;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.cuadro-1 {
+    width: 1rem;
+    height: 1rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.cuadro-2 {
+    width: 1rem;
+    height: 1rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.cuadro-3 {
+    width: 1rem;
+    height: 1rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.cuadro-4 {
+    width: 1rem;
+    height: 1rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.cuadro-5 {
+    width: 1rem;
+    height: 1rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.cuadro-6 {
+    width: 1rem;
+    height: 1rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.autoplay {
+    border: 1px solid black;
+    width: 40rem;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.autoplay-1 {
+    width: 2rem;
+    height: 2rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.autoplay-2 {
+    width: 2rem;
+    height: 2rem;
+    background: #000;
+    margin: .5rem;
+}
+
+.unitless {
+    width: 2rem;
+    height: 2rem;
+    background: #fbb;
+    margin: .5rem;
+}
+
+.specific-unit {
+    width: 2rem;
+    height: 2rem;
+    background: #fcb;
+    margin: .5rem;
 }

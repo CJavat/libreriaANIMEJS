@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- CSS -->
         <link rel="stylesheet" href="CSS/index.css">
-        <title>Document</title>
+        <title>Librería AnimeJS</title>
     </head>
     <body>
         <div class="contenedor-animation" id="contenedor-animation">
@@ -18,7 +18,45 @@
         <div class="cuadrado-circulo" id="cuadrado-circulo"></div>
         <div class="cuadrado3" id="cuadrado3"></div>
         <div class="contenedor" id="contenedor"></div>
+        <input type="text" class="dom-attributes" id="dom-attributes" />
+        <svg width="128" height="128" viewBox="0 0 128 128" id="svg-attributes">
+        <filter id="displacementFilter">
+            <feTurbulence type="turbulence" baseFrequency="0.049832937727094455" numOctaves="2" result="turbulence" style="transform: scale(1);"></feTurbulence>
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="14.953222563586445" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+        </filter>
+        <polygon id="polygon" points="64 68.83833633039347 8.574 99.98663501816756 63.26265917922253 67.5607843620546 64 3.986635018167556 64.73734082077748 67.5607843620546 119.426 99.98663501816756 " style="filter: url(&quot;#displacementFilter&quot;); transform: scale(1);" fill="currentColor"></polygon>
+        </svg>
+        <div class="duration" id="duration"></div>
+        <div class="delay" id="delay"></div>
+        <div class="end-delay" id="end-delay"></div>
+        <div class="easing" id="easing"></div>
+        <div class="round" id="round"></div>
+        <div class="specific-property-parameters" id="specific-property-parameters"></div>
+        <div class="function-based-parameters" id="function-based-parameters">
+            <div class="element1" id="element1"></div>
+            <div class="element2" id="element2"></div>
+            <div class="element3" id="element3"></div>
+        </div>
+        <div class="direction" id="direction">
+            <div class="cuadro1" id="cuadro1"></div>
+            <div class="cuadro2" id="cuadro2"></div>
+            <div class="cuadro3" id="cuadro3"></div>
+        </div>
+        <div class="loop" id="loop">
+            <div class="cuadro-1" id="cuadro-1"></div>
+            <div class="cuadro-2" id="cuadro-2"></div>
+            <div class="cuadro-3" id="cuadro-3"></div>
+            <div class="cuadro-4" id="cuadro-4"></div>
+            <div class="cuadro-5" id="cuadro-5"></div>
+            <div class="cuadro-6" id="cuadro-6"></div>
+        </div>
+        <div class="autoplay" id="autoplay">
+            <div class="autoplay-1" id="autoplay-1"></div>
+            <div class="autoplay-2" id="autoplay-2"></div>
+        </div>
+        <div class="unitless" id="unitless"></div>
+        <div class="specific-unit" id="specific-unit"></div>
         <!-- SCRIPT -->
         <script type="module" src="JS/index.js"></script>
     </body>
-</html>
+</html> 
